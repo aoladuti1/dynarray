@@ -1,5 +1,5 @@
 # dynarray
-A High-utility implementation of a dynamic array in Java, similar to ArrayList
+A high-utility implementation of a dynamic array in Java, similar to ArrayList
 
 ## benefits
 + Implements the Java List interface
@@ -13,7 +13,7 @@ A High-utility implementation of a dynamic array in Java, similar to ArrayList
 
 + Partitioning
 
-+ Option to set an internal comparator for an instance
++ Option to set an internal comparator for a DynArray instance
 
 + When `sort()` is called or the DynArray is marked as sorted, either
   binary or combined binary and linear search are used in look-up
@@ -23,6 +23,13 @@ A High-utility implementation of a dynamic array in Java, similar to ArrayList
 
 + A spliterator that splits elements *in order*
   
++ Minimalistic `toSet()` method
+
 + Thorough documentation
+
+## next steps
+
+1) add a cartesian product method
+2) add a `toMap()` method
 
 -- a bulk of this class was written circa 2020 --
